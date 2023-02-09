@@ -178,6 +178,7 @@ nav.navbar {
   }
 
   .navbar-nav {
+    background: #050e27;
     padding: 40px 0;
   }
 
@@ -264,3 +265,123 @@ nav.navbar {
 }
 
 /* Dashboard Section CSS End */
+
+/* Exchange Section CSS Start */
+
+.exchange-wrapper {
+  padding-top: 100px;
+}
+
+.column-content .section-title h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: center;
+  color: #ffffff;
+  background: url(../images/text-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.column-content p {
+  font-size: 18px;
+  line-height: 35px;
+  color: #ffffff;
+  margin-bottom: 100px;
+}
+
+/* Exchange Section CSS End */
+
+/* Work Section CSS Start */
+
+.work-wrapper {
+  padding: 150px 0;
+  margin-bottom: 500px;
+}
+
+.work-wrapper .section-title h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
+  color: #ffffff;
+  background: url(../images/text-bg.svg);
+  background-repeat: no-repeat;
+}
+
+.work-card {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 30px 20px;
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+}
+
+.work-card.work-card3 {
+  margin-top: 65px;
+}
+
+.work-card.work-card2 {
+  margin-top: 130px;
+}
+
+.work-card.work-card1 {
+  margin-top: 195px;
+}
+
+.work-card-icon {
+  width: 78px;
+  height: 78px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+.work-card h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.work-card p {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.work-shape1 {
+  position: absolute;
+  top: 360px;
+  left: 25%;
+  transform: rotate(4deg);
+}
+
+.work-shape2 {
+  position: absolute;
+  bottom: 195px;
+  left: 49%;
+  transform: rotate(5deg);
+}
+
+.work-shape3 {
+  position: absolute;
+  top: 230px;
+  right: 28%;
+  transform: rotate(5deg);
+}
+
+.work-wrapper::after {
+  position: absolute;
+  content: "";
+  top: 200px;
+  left: 0;
+  max-width: 700px;
+  width: 100%;
+  height: 600px;
+  background: #0189fa;
+  opacity: 0.53;
+  filter: blur(393.5px);
+  z-index: -1;
+}
+
+/* Work Section CSS End */
