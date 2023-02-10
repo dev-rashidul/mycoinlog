@@ -1,3 +1,43 @@
+@media (min-width: 2700px) and (max-width: 2999px) {
+  .work-shape1 {
+    left: 34%;
+  }
+
+  .work-shape3 {
+    right: 34%;
+  }
+}
+
+@media (min-width: 2400px) and (max-width: 2699px) {
+  .work-shape1 {
+    left: 32%;
+  }
+
+  .work-shape3 {
+    right: 33%;
+  }
+}
+
+@media (min-width: 2200px) and (max-width: 2399px) {
+  .work-shape1 {
+    left: 30%;
+  }
+
+  .work-shape3 {
+    right: 31%;
+  }
+}
+
+@media (min-width: 1921px) and (max-width: 2199px) {
+  .work-shape3 {
+    right: 30%;
+  }
+
+  .work-shape1 {
+    left: 28%;
+  }
+}
+
 @media (min-width: 1600px) and (max-width: 1799px) {
   .hero-left-shape {
     left: 50px;
