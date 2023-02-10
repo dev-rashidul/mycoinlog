@@ -1,7 +1,7 @@
 /* Base Style CSS Start */
 
-/* Font */
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap");
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&family=Roboto&display=swap");
 
 * {
   margin: 0;
@@ -17,7 +17,7 @@ body {
 }
 
 ol,
-ol {
+ul {
   margin: 0;
   padding: 0;
 }
@@ -33,6 +33,32 @@ a {
 
 img {
   max-width: 100%;
+}
+
+.section-spacing {
+  padding-top: 100px;
+}
+
+.section-title {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-title h2 {
+  max-width: 500px;
+  margin: auto;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  color: #ffffff;
+  background: url(../images/text-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header::before {
@@ -77,6 +103,10 @@ nav.navbar {
   background: #050e27 !important;
   padding: 10px 0 !important;
   transition: all 0.3s ease-in-out;
+}
+
+.logo img {
+  width: 200px;
 }
 
 .nav-link,
@@ -165,10 +195,6 @@ nav.navbar {
 }
 
 @media (max-width: 1200px) {
-  .logo img {
-    width: 150px;
-  }
-
   .navbar-toggler {
     padding-top: 16px;
   }
@@ -294,12 +320,7 @@ nav.navbar {
 
 /* Work Section CSS Start */
 
-.work-wrapper {
-  padding: 150px 0;
-  margin-bottom: 500px;
-}
-
-.work-wrapper .section-title h2 {
+.work-wrapper .work-title h2 {
   font-size: 50px;
   font-weight: 700;
   line-height: 55px;
@@ -351,21 +372,21 @@ nav.navbar {
 
 .work-shape1 {
   position: absolute;
-  top: 360px;
+  top: 310px;
   left: 25%;
   transform: rotate(4deg);
 }
 
 .work-shape2 {
   position: absolute;
-  bottom: 195px;
+  bottom: 45px;
   left: 49%;
   transform: rotate(5deg);
 }
 
 .work-shape3 {
   position: absolute;
-  top: 230px;
+  top: 180px;
   right: 28%;
   transform: rotate(5deg);
 }
@@ -385,3 +406,334 @@ nav.navbar {
 }
 
 /* Work Section CSS End */
+
+/* Get Started Section CSS Start */
+
+.get-started-card {
+  position: relative;
+  padding: 50px 30px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+}
+
+.get-started-number {
+  position: absolute;
+  top: -25px;
+  right: -10px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #0186fa 3.72%, #01c7fa 98.14%);
+  box-shadow: 6.65px 2.95556px 8.12778px rgba(0, 0, 0, 0.16);
+  border-radius: 15px;
+}
+
+.get-started-number h3 {
+  font-size: 29px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0;
+}
+
+.get-started-card h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.get-started-card p {
+  margin: 0;
+}
+
+/* Get Started Section CSS End */
+
+/* Pricing Section CSS Start */
+
+.pricing-wrapper {
+  padding-top: 80px;
+}
+
+.pricing-duration-buttons .nav-tabs {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 100px;
+  border: 0;
+}
+
+.nav-tabs .nav-link {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: #3f4557;
+  padding: 12px 25px !important;
+  border: 0;
+  border-radius: 37px !important;
+}
+
+.nav-tabs .nav-link.active {
+  background: linear-gradient(90deg, #0186fa 3.72%, #01c7fa 98.14%);
+  box-shadow: 6.65px 2.95556px 8.12778px rgba(0, 0, 0, 0.16);
+  border-radius: 37px;
+}
+
+.nav-tabs .nav-link span {
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  background: #ffffff;
+  box-shadow: 6.65px 2.95556px 8.12778px rgba(0, 0, 0, 0.16);
+  border-radius: 50%;
+  display: none !important;
+}
+
+.nav-tabs .nav-link.active span {
+  display: flex !important;
+}
+
+.pricing-card-wrapper {
+  padding: 50px 100px 0;
+}
+
+.pricing-card {
+  position: relative;
+  padding: 50px 30px;
+  background: rgba(245, 246, 255, 0.03);
+  border: 1px solid rgba(255, 251, 251, 0.12);
+  border-radius: 10px;
+  height: 100%;
+}
+
+.pricing-card-content h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.pricing-features {
+  padding-top: 40px;
+}
+
+.pricing-features ul li {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  padding: 15px 0;
+}
+
+.pricing-features ul li span {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  background: linear-gradient(90deg, #0186fa 3.72%, #01c7fa 98.14%);
+  box-shadow: 6.65px 2.95556px 8.12778px rgba(0, 0, 0, 0.16);
+  border-radius: 37px;
+}
+
+.price h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 40px 0;
+}
+
+.price h2 span {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.pricing-btn a {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.pricing-premium .pricing-card-content h3 {
+  color: #fad93d;
+}
+
+.pricing-premium .pricing-features ul li span {
+  background: linear-gradient(115.44deg, #ffc700 0%, #fdf419 102.03%);
+}
+
+.pricing-premium .price h2 {
+  color: #fad93d;
+}
+
+.pricing-premium .pricing-btn a {
+  background: linear-gradient(115.44deg, #ffc700 0%, #fdf419 102.03%);
+}
+
+.pricing-bottom {
+  position: absolute;
+  width: 90%;
+  bottom: 50px;
+}
+
+/* Pricing Section CSS End */
+
+/* SignUp Section CSS Start */
+
+.signup-wrapper {
+  padding-top: 100px;
+}
+
+.signup-content {
+  text-align: center;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+}
+
+.signup-content h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.newsletter-form,
+.signup-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1.7027px solid rgba(255, 255, 255, 0.12);
+  border-radius: 35px;
+}
+
+.newsletter-form .input-field,
+.signup-form .input-field {
+  width: 60%;
+}
+
+.newsletter-form .input-field input,
+.signup-form .input-field input {
+  width: 100%;
+  color: #ffffff;
+  background: transparent;
+  padding: 11px 20px;
+  border: none;
+}
+
+.newsletter-form .btn-field,
+.signup-form .btn-field {
+  width: 40%;
+}
+
+.newsletter-form .btn-field input,
+.signup-form .btn-field input {
+  width: 100%;
+  padding: 11px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  background: linear-gradient(90deg, #0186fa 3.72%, #01c7fa 98.14%) !important;
+  box-shadow: 11.323px 5.03243px 13.8392px rgba(0, 0, 0, 0.16);
+  border-radius: 50px;
+  border: none;
+}
+
+.newsletter-form input:focus,
+.signup-form input:focus {
+  outline: none;
+}
+
+.newsletter-form,
+.signup-form ::placeholder {
+  font-size: 18px;
+  font-weight: 500;
+  color: #32394c;
+}
+
+/* SignUp Section CSS End */
+
+/* Footer Section CSS Start */
+
+.footer-wrapper {
+  margin-top: 80px;
+  padding: 60px 0 40px;
+  background: rgba(255, 255, 255, 0.03);
+  border-top: 2px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.12);
+}
+
+.footer-menu {
+  padding-left: 140px;
+}
+
+.footer-menu h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-menu ul li {
+  padding-bottom: 5px;
+}
+
+.footer-menu ul li a {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.footer-newsletter h4 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.footer-newsletter p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.newsletter-form {
+  max-width: 370px;
+  padding: 3px;
+  margin-left: 0;
+}
+
+.newsletter-form .input-field input {
+  padding: 5px 20px;
+}
+
+.newsletter-form .btn-field input {
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+}
+
+.footer-copyright p {
+  font-size: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.27);
+  padding: 20px 0;
+  margin: 0;
+}
+
+/* Footer Section CSS End */

@@ -1,3 +1,21 @@
+@media (min-width: 1600px) and (max-width: 1799px) {
+  .hero-left-shape {
+    left: 50px;
+  }
+
+  .hero-right-shape {
+    right: 50px;
+  }
+
+  .work-shape3 {
+    right: 23%;
+  }
+
+  .work-shape1 {
+    left: 20%;
+  }
+}
+
 @media (min-width: 1400px) and (max-width: 1599px) {
   .hero-left-shape {
     left: 50px;
@@ -34,8 +52,8 @@
   }
 
   .work-shape2 {
-    bottom: 186px;
-    left: 49%;
+    bottom: 36px;
+    left: 48%;
     transform: rotate(359deg);
   }
 }
@@ -61,8 +79,10 @@
     height: 100%;
   }
 
+  .section-title h2,
   .column-content .section-title h2,
-  .work-wrapper .section-title h2 {
+  .work-wrapper .work-title h2,
+  .signup-content h2 {
     font-size: 40px;
   }
 
@@ -70,6 +90,18 @@
   .work-shape2,
   .work-shape3 {
     display: none;
+  }
+
+  .pricing-card-wrapper {
+    padding: 50px 50px 0;
+  }
+
+  .footer-menu {
+    padding-left: 100px;
+  }
+
+  .price h2 {
+    font-size: 56px;
   }
 }
 
@@ -103,8 +135,10 @@
     height: 100%;
   }
 
+  .section-title h2,
   .column-content .section-title h2,
-  .work-wrapper .section-title h2 {
+  .work-wrapper .work-title h2,
+  .signup-content h2 {
     font-size: 36px;
   }
 
@@ -112,6 +146,22 @@
   .work-shape2,
   .work-shape3 {
     display: none;
+  }
+
+  .pricing-card-wrapper {
+    padding: 50px 0 0;
+  }
+
+  .price h2 {
+    font-size: 48px;
+  }
+
+  .pricing-bottom {
+    width: 83%;
+  }
+
+  .footer-logo {
+    max-width: 300px;
   }
 }
 
@@ -146,9 +196,12 @@
     padding-top: 0;
   }
 
+  .section-title h2,
   .column-content .section-title h2,
-  .work-wrapper .section-title h2 {
+  .work-wrapper .work-title h2,
+  .signup-content h2 {
     font-size: 30px;
+    line-height: 35px;
   }
 
   .work-shape1,
@@ -159,5 +212,48 @@
 
   .work-card {
     margin-top: 50px !important;
+  }
+
+  .get-started-card h4,
+  .footer-menu h4 {
+    font-size: 22px;
+  }
+
+  .pricing-card-wrapper {
+    padding: 50px 0 0;
+  }
+
+  .pricing-duration-buttons .nav-tabs {
+    padding: 5px 10px;
+  }
+
+  .pricing-bottom {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .nav-tabs .nav-link {
+    font-size: 18px;
+  }
+
+  .pricing-card-content h3 {
+    font-size: 30px;
+  }
+
+  .price h2 {
+    font-size: 40px;
+  }
+
+  .signup-content {
+    padding: 50px 20px;
+  }
+
+  .footer-logo {
+    max-width: 280px;
+  }
+
+  .footer-menu {
+    padding-left: 0;
   }
 }
