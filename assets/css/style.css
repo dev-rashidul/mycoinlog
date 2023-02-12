@@ -277,15 +277,10 @@ nav.navbar {
   padding-bottom: 100px;
 }
 
-.dashboard-slide {
-  padding: 0 25px;
-  overflow: hidden;
-}
-
 .dashboard-slide img {
   width: 100%;
-  min-height: 500px;
-  max-height: 500px;
+  min-height: 650px;
+  max-height: 650px;
   height: 100%;
   border-radius: 20px;
 }

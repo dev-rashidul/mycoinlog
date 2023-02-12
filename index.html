@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyCoinLog - Landing Page</title>
 
-    <!-- Slick Slider CSS -->
-    <link rel="stylesheet" href="assets/css/slick.css" />
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
@@ -122,18 +119,42 @@
 
       <section id="Dashboard-slider">
         <div class="dashboard-slider-wrapper">
-          <div class="dashboard-slider">
-            <div class="dashboard-slide">
-              <img src="assets/images/dashboardImage1.webp" alt="dashboard1" />
-            </div>
-            <div class="dashboard-slide">
-              <img src="assets/images/dashboardImage2.webp" alt="dashboard2" />
-            </div>
-            <div class="dashboard-slide">
-              <img src="assets/images/dashboardImage3.webp" alt="dashboard3" />
-            </div>
-            <div class="dashboard-slide">
-              <img src="assets/images/dashboardImage4.webp" alt="dashboard4" />
+          <div class="container">
+            <div
+              id="carouselExampleAutoplaying"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="dashboard-slide carousel-item active">
+                  <img
+                    class="d-block w-100"
+                    src="assets/images/dashboardImage1.webp"
+                    alt="dashboard1"
+                  />
+                </div>
+                <div class="dashboard-slide carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="assets/images/dashboardImage2.webp"
+                    alt="dashboard2"
+                  />
+                </div>
+                <div class="dashboard-slide carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="assets/images/dashboardImage3.webp"
+                    alt="dashboard3"
+                  />
+                </div>
+                <div class="dashboard-slide carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="assets/images/dashboardImage4.webp"
+                    alt="dashboard4"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -938,12 +959,6 @@
     </footer>
 
     <!-- Footer Section HTML End -->
-
-    <!-- Jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-
-    <!-- Slick Slider JavaScript -->
-    <script src="assets/js/slick.js"></script>
 
     <!-- Bootstrap JavaScript -->
     <script src="assets/js/bootstrap.min.js"></script>
