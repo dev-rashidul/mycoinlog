@@ -1,7 +1,7 @@
 /* Base Style CSS Start */
 
 /* Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;700&display=swap");
 
 * {
   margin: 0;
@@ -732,3 +732,98 @@ nav.navbar {
 }
 
 /* Footer Section CSS End */
+
+/* 
+============***============
+Imprint Page CSS
+============***============ */
+
+.imprint-wrapper {
+  padding-top: 150px;
+}
+
+.imprint-title h2 {
+  max-width: 300px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
+  padding: 20px 0;
+  color: #ffffff;
+  background: url(../images/text-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imprint-service,
+.imprint-contact,
+.imprint-director,
+.imprint-registration {
+  padding-top: 40px;
+}
+
+.imprint-service h4,
+.imprint-contact h4,
+.imprint-director h4 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.imprint-service p,
+.imprint-director p,
+.imprint-registration p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.imprint-registration p span {
+  font-weight: 600;
+}
+
+.imprint-contact li {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.imprint-contact li a {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300 !important;
+  color: #ffffff;
+}
+
+/* Responsive CSS */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .imprint-title h2 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .imprint-title h2 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .imprint-title h2 {
+    font-size: 30px;
+  }
+
+  .imprint-service h4,
+  .imprint-contact h4,
+  .imprint-director h4 {
+    font-size: 24px;
+  }
+
+  .imprint-service p,
+  .imprint-director p,
+  .imprint-contact li,
+  .imprint-registration p {
+    font-size: 16px;
+  }
+}
