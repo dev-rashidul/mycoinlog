@@ -848,7 +848,7 @@ Timeline Page CSS
   content: "";
   position: absolute;
   width: 6px;
-  background-color: white;
+  background: linear-gradient(90deg, #0186fa 3.72%, #01c7fa 98.14%);
   top: 0;
   bottom: 0;
   left: 50%;
@@ -868,8 +868,8 @@ Timeline Page CSS
   width: 25px;
   height: 25px;
   right: -12px;
-  background-color: white;
-  border: 4px solid #0186fa;
+  background: linear-gradient(90deg, #0186fa 3.72%, #01c7fa 98.14%);
+  border: 4px solid #00449c;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -891,9 +891,9 @@ Timeline Page CSS
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid white;
+  border: medium solid #122f61;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color: transparent transparent transparent #45cbf7;
 }
 
 .timeline-right::before {
@@ -904,9 +904,9 @@ Timeline Page CSS
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid white;
+  border: medium solid #122f61;
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent #3286f5 transparent transparent;
 }
 
 .timeline-right::after {
@@ -915,7 +915,7 @@ Timeline Page CSS
 
 .timeline-content {
   padding: 20px 30px;
-  background-color: white;
+  background: linear-gradient(90deg, #0186fa 3.72%, #01c7fa 98.14%);
   position: relative;
   border-radius: 6px;
 }
@@ -923,12 +923,12 @@ Timeline Page CSS
 .timeline-content h2 {
   font-size: 40px;
   font-weight: 700;
-  color: #050e27;
+  color: #ffffff;
 }
 
 .timeline-content p {
   font-size: 18px;
-  color: #050e27;
+  color: #ffffff;
 }
 
 /* Responsive CSS */
